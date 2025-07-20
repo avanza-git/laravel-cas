@@ -23,14 +23,13 @@
   ],
   "require": {
     "php": ">=7.2.0",
-    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-    "apereo/phpcas": "^1.6",
-    "monolog/monolog": "^2.0|^3.0"
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+    "monolog/monolog": "^2.0|^3.0",
+    "avanza-git/phpcas": "^2.0"
   },
   "require-dev": {
-   "orchestra/testbench": "^6.25",
-    "phpunit/phpunit": "^8.0|^9.0|^10.0|^11.0",
-    "pestphp/pest": "^1.21"
+    "orchestra/testbench": "^7.0",
+    "phpunit/phpunit": "^8.0|^9.0|^10.0|^11.0"
   },
   "autoload": {
     "psr-4": {
