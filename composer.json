@@ -37,7 +37,7 @@
       "AvanzaGit\\LaravelCas\\": "src/AvanzaGit/LaravelCas"
     },
     "files": [
-      "src/AvanzaGit/LaravelCas/helpers.php"
+      "src/AvanzaGit/LaravelCas/functions.php"
     ]
   },
   "autoload-dev": {
