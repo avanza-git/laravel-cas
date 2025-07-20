@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas;
+namespace AvanzaGit\LaravelCas;
 
 /**
  * Isolates the exit() function so we can run tests without exiting

@@ -1,5 +1,5 @@
 {
-  "name": "subfission/cas",
+  "name": "avanza-git/cas",
   "description": "Adds CAS support to Laravel 5.x - 11.x",
   "keywords": [
     "CAS",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "subfission",
+      "name": "avanza-git",
       "role": "Developer"
     }
   ],
@@ -34,26 +34,31 @@
   },
   "autoload": {
     "psr-4": {
-      "Subfission\\Cas\\": "src/Subfission/Cas/"
+      "AvanzaGit\\LaravelCas\\": "src/AvanzaGit/LaravelCas"
     },
     "files": [
-      "src/Subfission/Cas/functions.php"
+      "src/AvanzaGit/LaravelCas/helpers.php"
     ]
   },
   "autoload-dev": {
     "psr-4": {
-      "Subfission\\Cas\\Tests\\": "tests"
+      "AvanzaGit\\LaravelCas\\Tests\\": "tests"
     }
   },
   "minimum-stability": "stable",
   "extra": {
     "laravel": {
       "providers": [
-        "Subfission\\Cas\\CasServiceProvider"
+        "AvanzaGit\\LaravelCas\\CasServiceProvider"
       ],
       "aliases": {
-        "Cas": "Subfission\\Cas\\Facades\\Cas"
+        "Cas": "AvanzaGit\\LaravelCas\\Facades\\Cas"
       }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
     }
   }
 }

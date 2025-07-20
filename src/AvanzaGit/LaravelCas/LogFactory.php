@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas;
+namespace AvanzaGit\LaravelCas;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas;
+namespace AvanzaGit\LaravelCas;
 
 use CAS_ServiceBaseUrl_Interface;
 use phpCAS;

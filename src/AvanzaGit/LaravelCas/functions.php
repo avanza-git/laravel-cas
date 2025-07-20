@@ -10,7 +10,7 @@ if (!function_exists('cas')) {
     /**
      * Initiate CAS hook.
      *
-     * @return \Subfission\Cas\CasManager
+     * @return \AvanzaGit\LaravelCas\CasManager
      */
     function cas()
     {

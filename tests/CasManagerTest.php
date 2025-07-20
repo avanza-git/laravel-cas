@@ -1,15 +1,15 @@
 <?php
 
-namespace Subfission\Cas\Tests;
+namespace AvanzaGit\LaravelCas\Tests;
 
 use Faker\Factory;
 use PHPUnit\Framework\MockObject\MockObject;
 use Psr\Log\LoggerInterface;
-use Subfission\Cas\CasManager;
+use AvanzaGit\LaravelCas\CasManager;
 use PHPUnit\Framework\TestCase;
-use Subfission\Cas\LogoutStrategy;
-use Subfission\Cas\PhpCasProxy;
-use Subfission\Cas\PhpSessionProxy;
+use AvanzaGit\LaravelCas\LogoutStrategy;
+use AvanzaGit\LaravelCas\PhpCasProxy;
+use AvanzaGit\LaravelCas\PhpSessionProxy;
 
 class CasManagerTest extends TestCase
 {

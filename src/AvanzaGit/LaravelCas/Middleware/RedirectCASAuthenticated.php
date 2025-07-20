@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas\Middleware;
+namespace AvanzaGit\LaravelCas\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

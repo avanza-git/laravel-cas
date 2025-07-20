@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas\Facades;
+namespace AvanzaGit\LaravelCas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static bool isMasquerading()
  * @method static setAttributes(array $attr)
  *
- * @see \Subfission\Cas\CasManager
+ * @see \AvanzaGit\LaravelCas\CasManager
  */
 class Cas extends Facade
 {

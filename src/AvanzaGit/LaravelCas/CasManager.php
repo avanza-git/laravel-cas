@@ -1,6 +1,6 @@
 <?php
 
-namespace Subfission\Cas;
+namespace AvanzaGit\LaravelCas;
 
 use Psr\Log\LoggerInterface;
 
